@@ -2,6 +2,8 @@
 
 This guide provides instructions for installing TDTCP on CloudLab using the Utah d6515 hardware. 
 
+**Special thanks to Dr. Ahmed Saeed, Shawn Chen, and CloudLab**
+
 ## Hardware Selection and Profile Creation
 
 We have selected CloudLab Utah d6515 hardware for this project as it provides the closest match to the hardware used in the TDTCP experiment. Using the CloudLab topology editor connect all the four machines with three separate links.   
@@ -77,8 +79,8 @@ print 'out :: ToDPDKDevice(0000:41:0.0)'
 print 'mgtout :: ToDPDKDevice(0000:41:0.1)' 
 ``` 
 
+ 
 ## Current Issues: 
 
 Some of the experiments ran successfully in our environment, however, some experiments failed. After a failure, some or all of the host machines typically lost the SSH connection and failed to reboot. Additionally, booting a host machine into a specific kernel often failed. The hosts would fail to restart and forcing them to restart resulted in booting into the generic kernel. We are unsure of the root cause of these issues, although resetting the SSH connection with the dhclient command before rebooting into a specific kernel sometimes helped. Additionally, for the experiments that we were able to run successfully, some of the graphs did not show the expected output. There was likely an issue in the environment. 
- 
  
