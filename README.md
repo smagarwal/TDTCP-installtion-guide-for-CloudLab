@@ -2,6 +2,8 @@
 
 This guide provides instructions for installing TDTCP on CloudLab using the Utah d6515 hardware. 
 
+**By: Tess Hammond and Shourya Agarwal**
+
 **Special thanks to Dr. Ahmed Saeed, Shawn Chen, and CloudLab**
 
 ## Hardware Selection and Profile Creation
