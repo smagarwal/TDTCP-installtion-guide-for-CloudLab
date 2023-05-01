@@ -1,4 +1,4 @@
-# TDTCP Installation Guide for CloudLab
+# TDTCP Etalon RDCN Emulator Installation Guide for CloudLab
 
 This guide provides instructions for installing TDTCP Etalon RDCN emulator on CloudLab using the Utah d6515 hardware. 
 
